@@ -1,0 +1,15 @@
+{
+  "name": "Redirect Zoom to Web",
+  "version": "1.0",
+  "description": "Redirects Zoom meeting links to the web client",
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "permissions": [
+    "webRequest",
+    "*://zoom.us/*",
+    "*://*.zoom.us/*",
+    "webRequestBlocking"
+  ],
+  "manifest_version": 2
+}
